@@ -36,25 +36,29 @@ class FriendListViewController: UIViewController, UITableViewDataSource, UITable
         Marie.name = "Marie"
         Marie.phoneNumber = "564574584"
         Marie.birthday = "25th April"
+        Marie.picture = UIImage(named: "I8F8St9-sMI")!
         self.friends.append(Marie)
         
-        let George = Friend()
-        George.name = "George"
-        George.phoneNumber = "123456"
-        George.birthday = "14th September"
-        self.friends.append(George)
+        let filthyfrank = Friend()
+        filthyfrank.name = "Filthy Frank"
+        filthyfrank.phoneNumber = "123456"
+        filthyfrank.birthday = "14th September"
+        filthyfrank.picture = UIImage(named: "timeline_1414581023_00031")!
+        self.friends.append(filthyfrank)
         
-        let Krammer = Friend()
-        Krammer.name = "Krammer"
-        Krammer.phoneNumber = "10000000"
-        Krammer.birthday = "5th June"
-        self.friends.append(Krammer)
+        let pinkguy = Friend()
+        pinkguy.name = "Pink Guy"
+        pinkguy.phoneNumber = "10000000"
+        pinkguy.birthday = "5th June"
+        pinkguy.picture = UIImage(named: "tumblr_mydi7gmp7K1qhiw03o3_1280")!
+        self.friends.append(pinkguy)
         
-        let Jerry = Friend()
-        Jerry.name = "Jerry"
-        Jerry.phoneNumber = "6482395"
-        Jerry.birthday = "9th July"
-        self.friends.append(Jerry)
+        let salamanderman = Friend()
+        salamanderman.name = "Salamander Man"
+        salamanderman.phoneNumber = "6482395"
+        salamanderman.birthday = "9th July"
+        salamanderman.picture = UIImage(named: "i")!
+        self.friends.append(salamanderman)
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
