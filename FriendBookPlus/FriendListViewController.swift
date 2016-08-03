@@ -25,7 +25,10 @@ class FriendListViewController: UIViewController, UITableViewDataSource, UITable
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
+        
+        cell.textLabel!.text = "Test"
         return cell
+        
     }
 
     override func didReceiveMemoryWarning() {
