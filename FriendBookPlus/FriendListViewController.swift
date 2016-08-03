@@ -29,7 +29,7 @@ class FriendListViewController: UIViewController, UITableViewDataSource, UITable
         let cell = UITableViewCell()
         let friend = self.friends[indexPath.row]
         cell.textLabel!.text = friend
-        return cell
+        return cell;
         
         
         
