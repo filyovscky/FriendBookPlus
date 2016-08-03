@@ -45,6 +45,9 @@ class FriendListViewController: UIViewController, UITableViewDataSource, UITable
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let detailVC = segue.destinationViewController as! FriendDetailViewController
+        detailVC.friendName = "sdfa"
+            }
 }
 
