@@ -37,7 +37,9 @@ class FriendListViewController: UIViewController, UITableViewDataSource, UITable
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        self.performSegueWithIdentifier("detailSegue", sender: nil)
+        let friend = self.friends[indexPath.row]
+        self.performSegueWithIdentifier("detailSegue", sender: friend)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,7 +49,7 @@ class FriendListViewController: UIViewController, UITableViewDataSource, UITable
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let detailVC = segue.destinationViewController as! FriendDetailViewController
-        detailVC.friendName = "sdfa"
+        detailVC.friendName = sender as! String
             }
 }
 

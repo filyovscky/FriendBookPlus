@@ -17,6 +17,7 @@ class FriendDetailViewController: UIViewController {
     
     var friendName = ""
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

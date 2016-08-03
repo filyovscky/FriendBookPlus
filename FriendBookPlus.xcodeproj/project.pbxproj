@@ -13,6 +13,7 @@
 		7387C5511D5206BD002BCAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7387C5501D5206BD002BCAD3 /* Assets.xcassets */; };
 		7387C5541D5206BD002BCAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7387C5521D5206BD002BCAD3 /* LaunchScreen.storyboard */; };
 		7387C55C1D5215A8002BCAD3 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387C55B1D5215A8002BCAD3 /* FriendDetailViewController.swift */; };
+		7387C55E1D5219A5002BCAD3 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387C55D1D5219A5002BCAD3 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7387C5531D5206BD002BCAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7387C5551D5206BD002BCAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7387C55B1D5215A8002BCAD3 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
+		7387C55D1D5219A5002BCAD3 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7387C5491D5206BD002BCAD3 /* AppDelegate.swift */,
 				7387C54B1D5206BD002BCAD3 /* FriendListViewController.swift */,
 				7387C55B1D5215A8002BCAD3 /* FriendDetailViewController.swift */,
+				7387C55D1D5219A5002BCAD3 /* Friend.swift */,
 				7387C54D1D5206BD002BCAD3 /* Main.storyboard */,
 				7387C5501D5206BD002BCAD3 /* Assets.xcassets */,
 				7387C5521D5206BD002BCAD3 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				7387C54C1D5206BD002BCAD3 /* FriendListViewController.swift in Sources */,
 				7387C54A1D5206BD002BCAD3 /* AppDelegate.swift in Sources */,
 				7387C55C1D5215A8002BCAD3 /* FriendDetailViewController.swift in Sources */,
+				7387C55E1D5219A5002BCAD3 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
