@@ -67,29 +67,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLw-ib-86g">
-                                <rect key="frame" x="17" y="72" width="162" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLw-ib-86g">
+                                <rect key="frame" x="278" y="84" width="45" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGd-KN-GeX">
-                                <rect key="frame" x="17" y="95" width="162" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGd-KN-GeX">
+                                <rect key="frame" x="268" y="125" width="65" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfg-uo-9Co">
-                                <rect key="frame" x="17" y="117" width="162" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfg-uo-9Co">
+                                <rect key="frame" x="276" y="166" width="49" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A6p-a1-MIf">
-                                <rect key="frame" x="31" y="285" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A6p-a1-MIf">
+                                <rect key="frame" x="161" y="270" width="278" height="59"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yLw-ib-86g" firstAttribute="centerY" secondItem="kt2-Qm-9Hx" secondAttribute="centerY" id="2zC-ft-OTT"/>
+                            <constraint firstItem="Kfg-uo-9Co" firstAttribute="top" secondItem="dGd-KN-GeX" secondAttribute="bottom" constant="20" id="CBr-Yn-Q78"/>
+                            <constraint firstItem="Kfg-uo-9Co" firstAttribute="top" secondItem="dGd-KN-GeX" secondAttribute="bottom" constant="20" id="FmH-cA-fb8"/>
+                            <constraint firstItem="Kfg-uo-9Co" firstAttribute="centerX" secondItem="kt2-Qm-9Hx" secondAttribute="centerX" id="GVl-6a-bbu"/>
+                            <constraint firstItem="Kfg-uo-9Co" firstAttribute="centerY" secondItem="kt2-Qm-9Hx" secondAttribute="centerY" id="Jkn-Ja-o7n"/>
+                            <constraint firstItem="A6p-a1-MIf" firstAttribute="top" secondItem="Kfg-uo-9Co" secondAttribute="bottom" constant="90" id="Joa-47-Sxt"/>
+                            <constraint firstItem="yLw-ib-86g" firstAttribute="top" secondItem="MXA-Qj-9fQ" secondAttribute="bottom" constant="8" id="Lh0-CT-YPw"/>
+                            <constraint firstItem="A6p-a1-MIf" firstAttribute="centerX" secondItem="kt2-Qm-9Hx" secondAttribute="centerX" id="Spn-og-4JK"/>
+                            <constraint firstItem="dGd-KN-GeX" firstAttribute="centerY" secondItem="kt2-Qm-9Hx" secondAttribute="centerY" id="X92-w3-ptz"/>
+                            <constraint firstItem="dGd-KN-GeX" firstAttribute="top" secondItem="yLw-ib-86g" secondAttribute="bottom" constant="20" id="YLW-Gg-52t"/>
+                            <constraint firstItem="dGd-KN-GeX" firstAttribute="centerX" secondItem="kt2-Qm-9Hx" secondAttribute="centerX" id="nGy-X9-ust"/>
+                            <constraint firstItem="yLw-ib-86g" firstAttribute="top" secondItem="MXA-Qj-9fQ" secondAttribute="bottom" constant="20" id="nsG-77-iXE"/>
+                            <constraint firstItem="dGd-KN-GeX" firstAttribute="top" secondItem="yLw-ib-86g" secondAttribute="bottom" constant="2" id="oOO-YL-KwZ"/>
+                            <constraint firstItem="yLw-ib-86g" firstAttribute="centerX" secondItem="kt2-Qm-9Hx" secondAttribute="centerX" id="tIS-C7-bEL"/>
+                            <constraint firstItem="A6p-a1-MIf" firstAttribute="top" secondItem="Kfg-uo-9Co" secondAttribute="bottom" constant="90" id="wQZ-aq-JBI"/>
+                            <constraint firstItem="A6p-a1-MIf" firstAttribute="centerX" secondItem="kt2-Qm-9Hx" secondAttribute="centerX" id="ypf-dM-Zma"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Joa-47-Sxt"/>
+                                <exclude reference="Spn-og-4JK"/>
+                                <exclude reference="2zC-ft-OTT"/>
+                                <exclude reference="Lh0-CT-YPw"/>
+                                <exclude reference="X92-w3-ptz"/>
+                                <exclude reference="oOO-YL-KwZ"/>
+                                <exclude reference="Jkn-Ja-o7n"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="birthdayLabel" destination="dGd-KN-GeX" id="8P7-sz-3wj"/>

@@ -27,7 +27,7 @@ class FriendDetailViewController: UIViewController {
         self.phoneLabel.text = self.friend.phoneNumber
         self.birthdayLabel.text = self.friend.birthday
         self.pictureImageView.image = self.friend.picture
-        self.pictureImageView.contentMode = UIViewContentMode.ScaleAspectFill
+        self.pictureImageView.contentMode = UIViewContentMode.ScaleAspectFit
         
     }
 
