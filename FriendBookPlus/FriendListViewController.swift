@@ -12,6 +12,8 @@ class FriendListViewController: UIViewController, UITableViewDataSource, UITable
 
     @IBOutlet weak var tableView: UITableView!
     
+    var friends = ["Marie", "Elaine", "George", "Krammer", "Jamie"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,15 +22,21 @@ class FriendListViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5;
+        return self.friends.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        
-        cell.textLabel!.text = "Test"
+        let friend = self.friends[indexPath.row]
+        cell.textLabel!.text = friend
         return cell
         
+        
+        
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("detailSegue", sender: nil)
     }
 
     override func didReceiveMemoryWarning() {
